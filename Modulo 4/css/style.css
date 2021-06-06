@@ -17,6 +17,7 @@ body {
 }
 
 .hr {
+    margin: 20px auto  !important;
     height: 1px;
     background-color: black;
     width: 30%;
@@ -40,6 +41,7 @@ body {
 }
 
 #btn-sobre {
+    margin: 5px;
     border-radius: 20px;
     padding: 5px 25px;
     background-color: black !important;
@@ -48,6 +50,7 @@ body {
 }
 
 #btn-projetos {
+    margin: 5px;
     border: 2px solid black;
     border-radius: 20px;
     padding: 5px 25px;
@@ -73,7 +76,7 @@ body {
 }
 
 .links-redes-sociais {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .links-redes-sociais i {
