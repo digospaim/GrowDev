@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--DL lista com detalhamento-->
+    <dl>
+        <!--DT item principal-->
+        <dt>Café</dt>
+        <!--DD detalhamento do item-->
+        <dd>- Preto e sm açucar.</dd>
+        <dt>Carne</dt>
+        <dd>- Mal passada.</dd>
+    </dl>
+
+    <table border="1">
+        <!--THEAD identifica o cabeçalho da tabela-->
+        <thead>
+        <!--TR linha--> 
+            <tr>
+                <!--TH cabeçalho-->
+                <th>Compania</th>
+                <th>Contato</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <!--TBODY identifica o corpo da tabela-->
+        <tbody>
+            <tr>
+                <!--TD dados tabela-->
+                <td>Dell</td>
+                <!--ROWSPAN mescla as linhhas da coluna-->
+                <td rowspan="2">Zé</td>
+                <td>Eldorado</td>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>EUA</td>
+            </tr>
+            <tr>
+                <!--COLSPAN mescla duas colunas-->
+                <td colspan="2">Apple</td>
+                <td>EUA</td>
+            </tr>
+        </tbody>
+        <!--TFOOT rodapé de uma tabela-->
+        <tfoot>
+            <tr>
+                <td>col 1</td>
+                <td>col 2</td>
+                <td>col 3</td>
+            </tr>
+        </tfoot>
+    </table>
+    <table border="1" style="width: 100%;">
+        <thead>
+            <tr>
+                <th rowspan="2">Empresa</th>
+                <th colspan="3">Faturamento Mês</th>
+            </tr>
+            <tr>
+                <th>JAN</th>
+                <th>FEV</th>
+                <th>MAR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>1.000</td>
+                <td>1.000</td>
+                <td>1.000</td>
+            </tr>
+            <tr>
+                <td>Microsoft</td>
+                <td>1.000</td>
+                <td>1.000</td>
+                <td>1.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>TOTAL</td>
+                <td>2.000</td>
+                <td>2.000</td>
+                <td>2.000</td>
+            </tr>
+        </tfoot>    
+    </table>
+    <!--FOOTER rodapé-->
+    <footer>
+        <div>
+            <small>
+                texto
+                <!--TARGET _BLANK abre uma nova aba-->
+                <a href="httttp://www.google.com.br" target="_blank">google</a>
+            </small>
+        </div>
+    </footer>
+</body>
+</html>
