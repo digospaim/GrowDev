@@ -17,6 +17,7 @@ body {
 }
 
 .hr {
+    margin: 20px auto  !important;
     height: 1px;
     background-color: black;
     width: 30%;
@@ -72,7 +73,7 @@ body {
     padding: 5px 17px;
 }
 
-.links-redes-sociais i {
+a {
     text-decoration: none;
 }
 

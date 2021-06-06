@@ -1,12 +1,12 @@
 var nome = "Rodrigo Paim";
 var cargo = "Desenvolvedor";
 
-var nomeHtml = document.getElementById("nome-no-html");
+var nomeHtml = document.getElementById("nomeCurriculo");
 var cargoHtml = document.getElementById("nomeCargo");
 var texto1 = document.getElementById("texto1");
 var texto2 = document.getElementById("texto2");
 
-function colocarNomeNoHtml(nome) {
+function mudarNome(nome) {
     nomeHtml.innerHTML = nome;
 }
 
@@ -14,15 +14,15 @@ function mudarCargo(cargo){
     cargoHtml.innerHTML = cargo;
 }
 
-function clickNoProjetos() {
+function botaoProjetos() {
     texto1.style.display = "none";
     texto2.style.display = "block";
 }
 
-function clickNoSobre() {
+function botaoSobre() {
     texto1.style.display = "block";
     texto2.style.display = "none";
 }
 
-colocarNomeNoHtml(nome);
+mudarNome(nome);
 mudarCargo(cargo);
