@@ -75,8 +75,8 @@ body {
     padding: 5px 17px;
 }
 
-.links-redes-sociais {
-    text-decoration: none !important;
+a {
+    text-decoration: none;
 }
 
 .links-redes-sociais i {
